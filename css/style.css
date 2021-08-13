@@ -1,0 +1,236 @@
+/* :::::::Font Link Start:::::::: */
+@font-face {
+    font-family:PTSans-Regular;
+    src: url(../Font/PTSans-Regular.woff);
+}
+@font-face {
+    font-family:PTSans-Bold;
+    src: url(../Font/PTSans-Bold.woff);
+}
+/* :::::::Font Link End:::::::: */
+
+
+/* :::::::Common css Start::::::: */
+body{
+    margin: 0;
+    padding: 0;
+    font-family:PTSans-Regular;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+p{
+    margin: 0;
+}
+/* :::::::Common css End::::::: */
+
+/* :::::::Header Start::::::: */
+header{
+    padding: 15px 0;
+    background: #fcdb00;
+}
+.Logo img{
+    width: 100%;
+}
+.toggler-icon{
+    border: 1px solid #010101 !important;
+}
+.toggler-icon:focus{
+    box-shadow: none;
+}
+.toggler-icon i{
+    color: #010101;
+    font-size: 24px;
+}
+.menu ul li a{
+    margin: 0 38px;
+    font-family:PTSans-Bold;
+    font-size: 22px;
+    color: #010101 !important;
+    transition: .3s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    color: #fff !important;
+}
+/* :::::::Header End::::::: */
+
+/* :::::::Slider Start::::::: */
+.slider{
+    background: #fcdb00;
+}
+.carousel-item{
+    padding-bottom: 100px;
+}
+.slider-text{
+    margin-top: 65px;
+}
+.slider-text h1{
+    margin: 0;
+    font-family:PTSans-Bold;
+    font-size: 32px;
+    color: #010101;
+}
+.slider-text h2{
+    margin: 0;
+    padding: 20px 60px 20px 0;
+    font-size: 20px;
+    color: #313841;
+}
+.slider-text p{
+    margin: 0;
+    padding: 0 23px 40px 0;
+    color: #555555;
+}
+.slider-icon i{
+    font-size: 42px;
+    margin-right: 20px;
+    transition: .4s;
+}
+.slider-icon i:hover{
+    transform: scale(.8);
+    cursor: pointer;
+}
+.slider-image{
+ text-align: center;
+}
+
+.cid{
+    bottom: 10px;
+}
+.cid [data-bs-target] {
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+/* :::::::Slider End::::::: */
+
+/* :::::::Feature Start::::::: */
+.feature{
+    padding-top: 110px;
+    padding-bottom: 150px;
+}
+.common-title h1{
+    margin: 0;
+    font-family:PTSans-Bold;
+    font-size: 32px;
+    color: #010101;
+}
+.common-title p{
+    margin: 0;
+    padding: 15px 65px 0;
+    font-size: 20px;
+    color: #313841;
+}
+.feature-item{
+    padding-top: 80px;
+}
+.feature-item-icon{
+    text-align: center;
+}
+.feature-item-icon i{
+    margin-top: 5px;
+    font-size: 50px;
+}
+.feature-item-text h2{
+    margin: 0;
+    font-size: 22px;
+    color: #010101;
+}
+.feature-item-text p{
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 23px;
+    color: #898989;
+}
+/* :::::::Feature End::::::: */
+
+
+/* :::::::Contact Start::::::: */
+.contact{
+    padding: 100px 0;
+    background: #010101;
+}
+.C_h1{
+    color: #fcdb00 !important;
+}
+.C_p{
+    color: #898989 !important;
+}
+.mtb-castom{
+    margin: 30px 0 70px;
+}
+.C_email{
+    width: 100%;
+    height: 50px;
+    padding: 0 30px !important;
+    border-radius: 6px;
+    border: 1px solid #010101;
+    color: #898989 !important;
+}
+.C_email:focus{
+    color: #898989;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.btn_submit{
+    width: 100%;
+    height: 50px;
+    font-family:PTSans-Bold;
+    background: #fcdb00;
+    color: #010101 !important;
+    border-radius: 6px;
+    border: 1px solid #010101;
+    transition: .4s;
+}
+.btn_submit:focus{
+    box-shadow: none;
+}
+.btn_submit:hover{
+    background: #fff !important;
+}
+.C_social{}
+.C_social ul li{
+    margin: 0 12px !important;
+}
+
+.C_social ul li a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    background-color: #fcdb00;
+    transition: .3s;
+}
+.C_social ul li a:hover{
+    background-color: #fff;
+    transform: scale(.8);
+}
+.C_social ul li a i{
+    font-size: 42px;
+    color: #010101;
+}
+/* :::::::Contact End::::::: */
+
+/* :::::::Footer Start::::::: */
+footer{
+    padding-bottom: 120px;
+    background: #010101;
+}
+.f-1{
+    color: #fff;
+}
+.f-2 p a{
+    text-decoration: none;
+    color: #fff !important;
+}
+.f-2 p a:hover{
+    color: #fcdb00 !important;
+}
+/* :::::::Footer End::::::: */
